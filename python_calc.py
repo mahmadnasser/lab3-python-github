@@ -1,7 +1,7 @@
-def add(a, b):
+def add(a, b):    #this function is used for the addition of two numbers.
     return a + b
 
-def subtract(a, b):
+def subtract(a, b):  #this function is used for the subtraction of two numbers.
     return a - b
 
 def multiply(a, b):
@@ -26,7 +26,7 @@ def calculate_percentage(part, total):
     return (part / total) * 100
 
 def display_menu():
-    print("\n--- Python Calculator ---")
+    print("\n--- Python Calculator ---")  # Display the main menu
     print("1. Addition (+)")
     print("2. Subtraction (-)")
     print("3. Multiplication (×)")
@@ -38,7 +38,7 @@ def display_menu():
 def main():
     while True: # Loop to allow multiple calculations
         display_menu()
-        choice = input("Enter your choice (1-7): ")
+        choice = input("Enter your choice (1-7): ") #select the choice from the menu
         
         if choice == '7':
             print("Exiting calculator. Goodbye!")
